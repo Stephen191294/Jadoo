@@ -19,6 +19,8 @@ body {
 .container {
   width: 100%;
   margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
@@ -27,6 +29,7 @@ body {
   overflow: hidden;
   background-color: #FFF1DA;
   position: relative;
+
 }
 
 
@@ -35,6 +38,9 @@ body {
   opacity: 0;
   overflow: hidden;
   transition: max-height 0.3s ease, opacity 0.3s ease;
+ 
+
+ 
 }
 
 
@@ -48,7 +54,7 @@ body {
 
 
 .topnav a.icon {
-  background: black;
+  background: #F1A501;
   display: block;
   position: absolute;
   right: 0;
@@ -78,4 +84,72 @@ body {
 .topnav.open #myLinks {
   max-height: 500px; 
   opacity: 1;
+}
+
+
+.btn{
+  padding: 14px 16px;
+}
+
+
+.sect-1{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 40px;
+  
+}
+
+.sect-1 .span-1{
+  color: #DF6951;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.sect-1 h1{
+  color: #181E4B;
+  padding-bottom: 20px;
+}
+
+.sect-1 p{
+  color: #5E6282
+}
+
+.sect-1-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sect-1-div-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sect-1 .img-2{
+  width: 100vw;
+  height: auto;
+}
+
+.sect-1 .sect-imgs{
+  position: relative;
+}
+
+.sect-1 .dec{
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  right:0;
+z-index: 1;
+}
+
+.sect-1 .img-2{
+  position: absolute;
+  top: 0;
+  right:0;
+  z-index: 5;
 }

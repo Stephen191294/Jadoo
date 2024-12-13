@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +20,7 @@
 body {
   width: 100%;
   overflow-x: hidden;
-  margin-bottom: 1000px;
+  
 }
 h1,
 h2,
@@ -102,6 +108,9 @@ nav {
 .btn {
   padding: 0.875rem 1rem;
 }
+
+
+
 
 .sect-1 {
   height: auto;
@@ -196,7 +205,6 @@ nav {
 .sect-2 .box {
   max-width: 11.875rem;
   max-height: 14.1875rem;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,20 +212,8 @@ nav {
   text-align: center;
 }
 
-.sect-2 .box-1 {
-  max-width: 11.875rem;
-  max-height: 14.1875rem;
-  box-shadow: 5px 5px 10px gray;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 36px;
-  padding-bottom: 44px;
-  position: relative;
-  z-index: 1;
+.sect-2 .box .img{
+  width: 100px;
 }
 
 .grid-container {
@@ -323,3 +319,62 @@ nav {
   border-radius: 10px;
   height: auto;
 }
+
+
+footer{
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+footer .span-1{
+  font-size: 1.125rem;
+  color: #5e6282;
+  font-family: "Poppins", sans-serif;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li:first-child{
+  font-weight: bold;
+}
+
+footer li{
+  font-size: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+footer .div-1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .div-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+/*sm*/
+@media (min-width: 640px) {  }
+
+/*md*/
+@media (min-width: 768px) {  }
+
+/*lg*/
+@media (min-width: 1024px) {  }
+
+/*xl*/
+@media (min-width: 1280px) {  }
+
+/*2xl*/
+ @media (min-width: 1536px) {  }

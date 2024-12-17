@@ -695,7 +695,7 @@ footer .div-2 {
    position: absolute;
    background-color: white;
     z-index: 1;
-    bottom: 50px;
+    bottom: 55px;
     left: 200px;
     width: 263px;
     height: 129px;
@@ -714,6 +714,16 @@ footer .div-2 {
   }
   .sect-4 .img-div .div-2{
     margin-bottom: 30px;
+  }
+  .sect-4 .img-div .heart{
+    width: 22px;
+    margin-left: auto;
+  }
+  .sect-4 .img-div .div-3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 19px;
   }
 }
 /*xl*/

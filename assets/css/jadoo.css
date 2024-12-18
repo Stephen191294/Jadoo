@@ -1548,3 +1548,26 @@ footer .div-2 {
 /*2xl*/
 @media (min-width: 1536px) {
 }
+
+/*Iphone XR*/
+@media (min-width: 414px) and (max-width: 896px) {
+  .content-slider .mask {
+    padding-left: 9%;
+  }
+}
+
+/*IPhone 12*/
+
+@media (min-width: 390px) and (max-width: 844px) {
+  .content-slider .mask {
+    padding-left: 5%;
+  }
+}
+
+/*Iphone 14*/
+
+@media (min-width: 430px) and (max-width: 932px) {
+  .content-slider .mask {
+    padding-left: 7%;
+  }
+}

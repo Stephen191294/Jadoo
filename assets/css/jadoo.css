@@ -20,8 +20,10 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 h1,
 h2,
@@ -34,23 +36,27 @@ h6 {
   font-size: 1.75rem;
 }
 
+
+
 .container {
   width: 100%;
   margin: auto;
-  padding-left: 1.25rem;
+ padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 nav {
   position: sticky;
   top: 0;
   z-index: 1000;
+  width: 100%;
 }
 .topnav {
   overflow: hidden;
   background-color: #fff1da;
   position: absolute;
-  width: 100vw;
+width: 100%;
   z-index: 5;
+
 }
 
 .topnav #myLinks {
@@ -124,6 +130,7 @@ nav {
   flex-direction: column;
   text-align: center;
   padding-top: 97px;
+
 }
 .sect-1 .span-1 {
   color: #df6951;
@@ -155,7 +162,7 @@ nav {
 }
 
 .sect-1 .img-2 {
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 
@@ -165,7 +172,7 @@ nav {
 
 .sect-1 .dec {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   top: 0;
   right: 0;
   z-index: 1;
@@ -247,6 +254,11 @@ nav {
 .sect-3 {
   padding-top: 40px;
   text-align: center;
+  width: 100%;
+}
+
+.sect-3 img{
+  width: 100%;
 }
 
 .sect-3 h4 {
@@ -266,6 +278,7 @@ nav {
   align-items: center;
   justify-content: center;
   padding-top: 20px;
+
 }
 
 .sect-3 .grid-container-1 .box-1 {
@@ -292,7 +305,7 @@ nav {
   display: flex;
   flex-direction: column;
   height: auto;
-  width: 90vw;
+  width: 90%;
   box-shadow: 1px 20px 30px #59b1e6;
   border-radius: 26px;
   padding: 10px;
@@ -344,7 +357,7 @@ nav {
 
 .slider {
   height: 320px;
-  width: 90vw;
+  width: 90%;
   margin: 40px auto 0;
   overflow: visible;
   position: relative;

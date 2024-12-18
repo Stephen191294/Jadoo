@@ -1562,6 +1562,9 @@ footer .div-2 {
   .content-slider .mask {
     padding-left: 5%;
   }
+  .sect-4 {
+    margin-left: 40px;
+  }
 }
 
 /*Iphone 14*/
@@ -1569,5 +1572,9 @@ footer .div-2 {
 @media (min-width: 430px) and (max-width: 932px) {
   .content-slider .mask {
     padding-left: 7%;
+  }
+
+  .sect-4 {
+    margin-left: 40px;
   }
 }

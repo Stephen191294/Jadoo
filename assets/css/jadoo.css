@@ -36,12 +36,10 @@ h6 {
   font-size: 1.75rem;
 }
 
-
-
 .container {
   width: 100%;
   margin: auto;
- padding-left: 1.25rem;
+  padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 nav {
@@ -54,9 +52,8 @@ nav {
   overflow: hidden;
   background-color: #fff1da;
   position: absolute;
-width: 100%;
+  width: 100%;
   z-index: 5;
-
 }
 
 .topnav #myLinks {
@@ -130,7 +127,6 @@ width: 100%;
   flex-direction: column;
   text-align: center;
   padding-top: 97px;
-
 }
 .sect-1 .span-1 {
   color: #df6951;
@@ -138,7 +134,7 @@ width: 100%;
   font-size: 1.25rem;
   padding-bottom: 1.25rem;
 }
-.sect-1 h1{
+.sect-1 h1 {
   margin-top: 20px;
 }
 .sect-1 p {
@@ -259,8 +255,12 @@ width: 100%;
   width: 100%;
 }
 
-.sect-3 img{
+.sect-3 img {
   width: 100%;
+}
+
+.sect-3 .spring {
+  width: 96px;
 }
 
 .sect-3 h4 {
@@ -280,7 +280,6 @@ width: 100%;
   align-items: center;
   justify-content: center;
   padding-top: 20px;
-
 }
 
 .sect-3 .grid-container-1 .box-1 {
@@ -371,7 +370,6 @@ width: 100%;
   overflow: hidden;
   height: 320px;
   padding-top: 10px;
-  
 }
 
 .slider ul {
@@ -1163,17 +1161,25 @@ footer .div-2 {
   .spring {
     display: block;
     position: absolute;
-    bottom: 200px;
-    right: 10px;
+    bottom: 160px;
+    right: -1px;
     z-index: -1;
+    width: 96px;
+    height: 252px;
   }
   .sect-3 .grid-container-1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-left: 100px;
+    gap: 61px;
   }
 
   .sect-3 h4 {
     font-size: 50px;
+  }
+  .sect-3 .grid-container-1 .sect-3-img {
+    width: 400px;
+    height: 547px;
   }
 
   .sect-4 {
@@ -1492,50 +1498,48 @@ footer .div-2 {
     display: flex;
     flex-direction: row;
     padding-left: 100px;
-    
   }
 
-  footer .footer-h6{
+  footer .footer-h6 {
     font-size: 13px;
-    color: #5E6282;
+    color: #5e6282;
   }
-  .footer-div span{
+  .footer-div span {
     display: block;
   }
 
-  .footer-div .span-1{
-    color:#181e4b;
+  .footer-div .span-1 {
+    color: #181e4b;
     font-weight: 600;
-    font-size: 44px ;
+    font-size: 44px;
   }
 
-  footer .div-1{
+  footer .div-1 {
     display: flex;
     flex-direction: row;
     gap: 73px;
   }
 
-  footer .div-1 li{
+  footer .div-1 li {
     font-size: 18px;
-    color: #5E6282;
+    color: #5e6282;
     text-align: left;
     margin-left: 100px;
   }
-  
-  footer .div-1 li:first-child{
+
+  footer .div-1 li:first-child {
     color: black;
     font-weight: bold;
     font-size: 21px;
     margin-bottom: 32px;
   }
 
-  footer .div-2{
+  footer .div-2 {
     display: flex;
     flex-direction: column;
     margin-top: 0;
     margin-left: auto;
   }
-  
 }
 /*xl*/
 @media (min-width: 1280px) {

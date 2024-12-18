@@ -138,7 +138,9 @@ width: 100%;
   font-size: 1.25rem;
   padding-bottom: 1.25rem;
 }
-
+.sect-1 h1{
+  margin-top: 20px;
+}
 .sect-1 p {
   color: #5e6282;
   font-size: 1.125rem;

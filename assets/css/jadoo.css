@@ -370,7 +370,8 @@ width: 100%;
 .mask {
   overflow: hidden;
   height: 320px;
-  padding-top: 30px;
+  padding-top: 10px;
+  
 }
 
 .slider ul {
@@ -380,7 +381,7 @@ width: 100%;
 }
 
 .slider li {
-  width: 680px;
+  width: 500px;
   height: 320px;
   position: absolute;
   top: -325px;

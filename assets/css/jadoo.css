@@ -712,6 +712,9 @@ nav {
   display: none;
 }
 
+.sect-6 .stars {
+  display: none;
+}
 .sect-6 .spring-2 {
   display: none;
 }
@@ -1430,6 +1433,10 @@ footer .div-2 {
     margin-top: 163px;
   }
 
+  .sect-6 {
+    margin-bottom: 187px;
+  }
+
   .sect-6 .box {
     width: 1170px;
     height: 407px;
@@ -1485,7 +1492,13 @@ footer .div-2 {
     left: -70px;
     z-index: 1;
   }
-
+  .sect-6 .stars {
+    display: block;
+    position: absolute;
+    bottom: -60px;
+    left: 1110px;
+    z-index: 6;
+  }
   .sect-6 .mail {
     display: block;
     position: absolute;

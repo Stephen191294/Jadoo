@@ -743,6 +743,7 @@ nav {
   height: 48px;
   width: 80px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 footer {

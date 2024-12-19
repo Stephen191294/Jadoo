@@ -1,19 +1,21 @@
-
-function myFunction() {
-  const topnav = document.querySelector('.topnav');
-  topnav.classList.toggle('open');
+function myFunction () {
+  const topnav = document.querySelector('.topnav')
+  topnav.classList.toggle('open')
 }
 
+new WOW().init()
 
-new WOW().init();
+const input = document.getElementById('input')
+const sub = document.getElementById('subscribe')
 
 
 
-document.querySelector('a[href^="#"]').addEventListener('click', function(e) {
-  e.preventDefault();
-  const target = document.querySelector(this.getAttribute('href'));
-  target.scrollIntoView({
-    behavior: 'smooth',
-    block: 'start'
-  });
-});
+sub.addEventListener('click', function () {
+  const inputValue = input.value.trim()
+
+  if (inputValue === '') {
+    alert('Please add a valid email address')
+  } else {
+    alert('Thanks for subscribing!')
+  }
+})

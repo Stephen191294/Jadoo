@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
 
 * {
   margin: 0;
@@ -36,12 +34,19 @@ h6 {
   font-size: 1.75rem;
 }
 
+.animate-me:hover {
+  animation: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: 100;
+}
+
 .container {
   width: 100%;
   margin: auto;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+
 nav {
   position: sticky;
   top: 0;
@@ -194,6 +199,7 @@ nav {
 .sect-1 .brushstroke {
   display: none;
 }
+
 .sect-1 .brushstroke-img {
   display: none;
 }
@@ -990,12 +996,13 @@ footer .div-2 {
 }
 
 /*lg*/
-@media (min-width: 1024px) {
+@media (min-width: 1124px) {
   .sect-1 {
     display: grid;
     flex-direction: row;
     grid-template-columns: repeat(2, 1fr);
     padding: 0;
+    padding-top: 100px;
   }
   .sect-1 .img-2 {
     width: 765px;
@@ -1009,55 +1016,7 @@ footer .div-2 {
   .topnav {
     display: none;
   }
-  .lg-nav {
-    display: flex;
-    flex-direction: row;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-top: 48px;
-  }
-  .lg-nav-div {
-    display: flex;
-    align-items: center;
-    margin-left: 448px;
-  }
 
-  .lg-nav ul {
-    display: flex;
-    align-items: center;
-    gap: 55px;
-    list-style: none;
-  }
-
-  .lg-nav ul li {
-    color: #212832;
-    font-weight: 600;
-    cursor: pointer;
-    font-family: "Poppins", sans-serif;
-  }
-  .lg-nav button {
-    margin-left: 52px;
-    background-color: transparent;
-    width: 102px;
-    height: 40px;
-    border-radius: 5px;
-    color: #212832;
-    font-weight: 600;
-    font-size: 17px;
-    font-family: "Poppins", sans-serif;
-  }
-
-  .lg-nav select {
-    margin-left: 42px;
-    border: transparent;
-    background-color: transparent;
-    padding: 0;
-    color: #212832;
-    font-weight: 600;
-    font-size: 17px;
-    font-family: "Poppins", sans-serif;
-    cursor: pointer;
-  }
   .sect-1 .dec {
     display: none;
   }
@@ -1554,13 +1513,71 @@ footer .div-2 {
     margin-top: 0;
     margin-left: auto;
   }
+  .topnav {
+    display: block;
+  }
 }
+
 /*xl*/
 @media (min-width: 1280px) {
 }
 
 /*2xl*/
 @media (min-width: 1536px) {
+  .topnav {
+    display: none;
+  }
+  .lg-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 8.75rem;
+    padding-right: 8.75rem;
+    padding-top: 3rem;
+  }
+
+  .lg-nav-div {
+    display: flex;
+    align-items: center;
+    margin-left: 28rem;
+  }
+
+  .lg-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 3.4375rem;
+    list-style: none;
+  }
+
+  .lg-nav ul li {
+    color: #212832;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .lg-nav button {
+    margin-left: 3.25rem;
+    background-color: transparent;
+    width: 6.375rem;
+    height: 2.5rem;
+    border-radius: 0.3125rem;
+    color: #212832;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .lg-nav select {
+    margin-left: 2.625rem;
+    border: transparent;
+    background-color: transparent;
+    padding: 0;
+    color: #212832;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
 }
 
 /*Iphone XR*/

@@ -3,7 +3,7 @@ function myFunction () {
   topnav.classList.toggle('open')
 }
 
-new WOW().init()
+/*new WOW().init()*/
 
 const input = document.getElementById('input')
 const sub = document.getElementById('subscribe')
